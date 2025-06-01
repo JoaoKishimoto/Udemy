@@ -42,11 +42,11 @@ function criaP(msg, className){
 // this function categorizes IMC
 function categorizaIMC(imc) {
     if(imc < 18.5) return 'abaixo do peso';
-    if(imc < 25) return 'peso normal';
-    if(imc < 30) return 'sobrepeso';
-    if(imc < 35) return 'obesidade grau 1';
-    if(imc < 40) return 'obesidade grau 2';
-    return 'obesidade grau 3';
+if(imc < 25) return 'peso normal';
+if(imc < 30) return 'sobrepeso';
+if(imc < 35) return 'obesidade grau 1';
+if(imc < 40) return 'obesidade grau 2';
+return 'obesidade grau 3';
 }
 
 // this function calculates the IMC
